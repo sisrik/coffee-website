@@ -1,0 +1,124 @@
+*{
+    margin:0;
+    border: border--box;
+}
+.nav{
+    background-color: #402620;
+    color: aliceblue;
+    height: 80px;
+    width:99vw;
+}
+.home{
+    float: right;
+    padding-right: 40px;
+}
+.home button{
+    font-size: 17px;
+    padding-right: 5px;
+    height: 80px;
+    background-color: #402620;
+    color: white;
+    border: none;
+    padding-left:5px;
+    cursor:pointer;
+    width:100px;
+}
+.home button:hover{
+    background-color: #cab9c2;
+    color:bisque;
+}
+
+/* first page */
+.pg1{
+    height:670px;
+    width: 100%;
+    background-color: #cab9c2;
+    display:flex;
+    justify-content: space-between;
+    margin:0;
+    border: border--box;
+}
+.beechtown{
+    font-size: 40px;
+    color: beige;
+    padding-top: 60px;
+}
+.a{
+     font-size: 30px;
+     padding-left: 420px;
+}
+.b{
+    color: #402620;
+    font-size: 100px;
+    padding-left: 290px;
+}
+.d{
+    color: #402620;
+    font-size: 100px;
+    padding-left: 370px;
+}
+.c{
+    font-size: 45px;
+    padding-left: 370px;
+    color: #402620;
+}
+.e {
+    background-color: #cab9c2;
+    border:1px solid white;
+    padding:8px;
+    color:beige;
+}
+.aboutus{
+    padding-left: 450px;
+    font-size: 20px;
+}
+.aboutus button:hover{
+    background-color: beige;
+    color: #402620;
+}
+
+/* page 2 */
+.pg2{
+    height:670px;
+    width: 100%;
+    background-color: #ebd4d9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+}
+.pg2_1{
+    padding-left: 60px;
+    padding-top: 30px;
+    font-size: 70px;
+    color: #402620;
+}
+.pg2_pics{
+    padding-top: 30px;
+    display:flex;
+    gap:60px;
+}
+.pg2_pics img {
+    height: 300px;
+    margin: 0 10px;
+}
+.column{
+    padding-top: 50px;;
+    text-align: center;
+}
+.column figcaption{
+    padding-top: 30px;
+}
+.lastbar{
+    background-color: #402620;
+    color: beige;
+    height: 200px;
+    width:99vw;
+}
+.lastbar_text {
+    column-count: 3;
+    column-gap: 40px;
+    align-items: center;
+    padding-top: 60px;
+    padding-left: 180px;
+  }
